@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Users</title>
+</head>
+<body>
+  <h2>Users yo</h2>
+  <% stuff.forEach(function(things) { %>
+      <h4><%=things.first_name %></h4>
+      <h4><%=things.last_name %></h4>
+      <h4><%=things.hashed_password %></h4>
+      <h4><%=things.email %></h4>
+
+
+
+      <% }) %>
+</body>
+</html>
